@@ -13,4 +13,5 @@ def ghi_csv(input_file, output_file):
     print(f"✅ Đã ghi toàn bộ dữ liệu từ '{input_file}' sang '{output_file}'.")
 
 if __name__ == "__main__":
-    ghi_csv('stroke_copy.csv', 'git_csv.csv')
+    ghi_csv('healthcare_dataset.csv', 'git_csv.csv')
+
